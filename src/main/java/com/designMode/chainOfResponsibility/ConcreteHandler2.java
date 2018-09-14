@@ -5,7 +5,7 @@ public class ConcreteHandler2 extends Handler {
 	public ConcreteHandler2(Handler successor) {
 		super(successor);
 	}
-	
+
 	@Override
 	protected void handleRequest(Request request) {
 		// 处理自己负责的类型，如果处理，则结束调用（return）

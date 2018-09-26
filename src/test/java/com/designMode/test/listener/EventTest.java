@@ -15,11 +15,11 @@ public class EventTest {
 		Context.addListener(new Listener(){
 			@Override
 			public void onChange(Event event) {
-				System.out.println("ÄäÃûÄÚ²¿Àà¼àÌı");
+				System.out.println("åŒ¿åå†…éƒ¨ç±»ç›‘å¬");
 			}
 		});
 		Context.addListener(event -> {
-			System.out.println("Lambda±í´ïÊ½¼àÌı");
+			System.out.println("Lambdaè¡¨è¾¾å¼ç›‘å¬");
 		});
 		Context.sendNotification(new Event(Event.INSTALLED,"abc"));
 	}

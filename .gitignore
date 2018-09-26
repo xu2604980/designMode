@@ -9,3 +9,10 @@ target/
 .settings/
 .metadata/
 .tern-project/
+
+# IntelliJ Idea
+.idea/
+out/
+*.ipr
+*.iws
+*.iml

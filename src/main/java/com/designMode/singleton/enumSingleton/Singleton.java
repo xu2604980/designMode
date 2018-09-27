@@ -6,5 +6,6 @@ package com.designMode.singleton.enumSingleton;
  *
  */
 public enum Singleton {
-	singleton;
+	//单例对象
+	singleton
 }

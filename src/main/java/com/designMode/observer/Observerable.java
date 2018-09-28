@@ -6,7 +6,20 @@ package com.designMode.observer;
  *
  */
 public interface Observerable {
-	public void registerObserver(Observer o);
-	public void removeObserver(Observer o);
-	public void notifyObserver();
+	/**
+	 * 注册一个观察者
+	 * @param o 观察者
+	 */
+	void registerObserver(Observer o);
+
+    /**
+     * 移除一个观察者
+     * @param o 观察者
+     */
+	void removeObserver(Observer o);
+
+    /**
+     * 唤醒所有观察者
+     */
+	void notifyObserver();
 }

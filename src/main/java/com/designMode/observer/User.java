@@ -1,5 +1,8 @@
 package com.designMode.observer;
 
+/**
+ * @author ex_xuhaichuan
+ */
 public class User implements Observer{
 	private String name;
 	private String message;

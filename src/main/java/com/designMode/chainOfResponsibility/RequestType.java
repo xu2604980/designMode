@@ -1,5 +1,5 @@
 package com.designMode.chainOfResponsibility;
 
 public enum RequestType {
-	type1,type2
+    type1, type2
 }

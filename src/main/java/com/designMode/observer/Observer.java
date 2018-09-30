@@ -7,7 +7,8 @@ package com.designMode.observer;
 public interface Observer {
     /**
      * 更新信息
+     *
      * @param message 要更新的信息
      */
-	void update(String message);
+    void update(String message);
 }

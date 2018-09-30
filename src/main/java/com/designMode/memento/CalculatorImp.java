@@ -1,25 +1,24 @@
 package com.designMode.memento;
 
 /**
- * @program: designMode
- * @Date: 2018/9/28 15:42
- * @Author: ex_xuhaichuan
- * @Description:
+ * @author ex_xuhaichuan
+ * @since 2018/9/28 15:42
  */
-public class CalculatorImp implements Calculator{
+public class CalculatorImp implements Calculator {
 
     private int firstNumber;
     private int secondNumber;
+
     @Override
     public PreviousCalculationToCareTaker backupLastCalculation() {
         // create a memento object used for restoring two numbers
-        return new PreviousCalculationImpl(firstNumber,secondNumber);
+        return new PreviousCalculationImpl(firstNumber, secondNumber);
     }
 
     @Override
     public void restorePreviousCalculation(PreviousCalculationToCareTaker memento) {
         this.firstNumber = ((PreviousCalculationToOriginator) memento).getFirstNumber();
-        this.secondNumber = ((PreviousCalculationToOriginator)memento).getSecondNumber();
+        this.secondNumber = ((PreviousCalculationToOriginator) memento).getSecondNumber();
     }
 
     @Override

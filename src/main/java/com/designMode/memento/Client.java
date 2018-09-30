@@ -6,9 +6,8 @@ package com.designMode.memento;
  * <p>Intent</p>
  * 在不违反封装的情况下获得对象的内部状态，从而在需要时可以将对象恢复到最初状态。
  *
- * @program: designMode
- * @Date: 2018/9/28 15:52
- * @Author: ex_xuhaichuan
+ * @author ex_xuhaichuan
+ * @since 2018/9/28 15:52
  */
 public class Client {
     public static void main(String[] args) {

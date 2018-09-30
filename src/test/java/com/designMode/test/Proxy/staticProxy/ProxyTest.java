@@ -5,9 +5,9 @@ import com.designMode.Proxy.staticProxy.ProxyObject;
 
 public class ProxyTest {
 
-	public static void main(String[] args) {
-		AbstractObject proxy = new ProxyObject(null);
-		proxy.operation();
-	}
+    public static void main(String[] args) {
+        AbstractObject proxy = new ProxyObject(null);
+        proxy.operation();
+    }
 
 }

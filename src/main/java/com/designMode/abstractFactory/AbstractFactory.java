@@ -1,4 +1,5 @@
 package com.designMode.abstractFactory;
+
 /**
  * <p>
  * 提供一个接口，用于<b>创建相关的对象家族</b>。
@@ -19,13 +20,14 @@ package com.designMode.abstractFactory;
  * 从高层次来看，抽象工厂使用了组合，即 Client 组合了 AbstractFactory<br>
  * 而工厂方法模式使用了继承
  * </p>
+ *
+ * @author ex_xuhaichuan
  * @see javax.xml.parsers.DocumentBuilderFactory
  * @see javax.xml.transform.TransformerFactory
  * @see javax.xml.xpath.XPathFactory
- * @author ex_xuhaichuan
- *
  */
 public abstract class AbstractFactory {
-	abstract AbstractProductA createProductA();
-	abstract AbstractProductB createProductB();
+    abstract AbstractProductA createProductA();
+
+    abstract AbstractProductB createProductB();
 }
